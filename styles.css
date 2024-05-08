@@ -1,0 +1,63 @@
+body {
+    background-color: #EAEAEA;
+}
+
+.section1, .section2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.section1 h2, .section2 h2 {
+    color: #0540f2;
+}
+
+.content {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 20px;
+}
+
+.section2 .line {
+    position: relative;
+    height: 50px;
+    background-color: #0540f2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.point {
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.card {
+    background-image: url('https://via.placeholder.com/200');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    width: calc(50% - 10px);
+    padding: 20px;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.card p {
+    margin-bottom: 0;
+}
