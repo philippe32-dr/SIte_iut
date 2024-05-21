@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez-nous</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .forme-blanc {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            z-index: 1;
+        }
+
+        .forme-bleu {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            z-index: 0;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-200">
+
+    <!-- Section Contactez-nous -->
+    <section class="relative bg-blue-500 text-white md:h-scren flex flex-wrap items-center justify-center">
+        <div class="absolute inset-0 bg-cover bg-center opacity-20"
+            style="background-image: url('./etudiant-africain-2.jpg');"></div>
+        <div class="relative z-10 text-center w-full md:w-1/2">
+            <h1 class="ml-64 text-4xl md:text-5xl font-bold mb-10 md:mb-0">Contactez-nous</h1>
+        </div>
+        <div class="relative z-10 w-full md:w-1/2 flex justify-center">
+            <img src="photo.png" alt="Profile" class="mr-32 w-96 h-96 md:w-300 md:h-300">
+        </div>
+        <div class="forme-blanc">
+            <img src="forme_blanc.png" alt="Profile" class="w-full h-32 md:w-300 md:h-300">
+        </div>
+        <div class="forme-bleu mt-4">
+            <img src="forme_bleu.png" alt="Profile" class="w-full h-32 md:w-300 md:h-300">
+        </div>
+    </section>
+
+</body>
+
+</html>
